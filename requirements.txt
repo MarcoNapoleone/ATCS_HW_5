@@ -1,0 +1,21 @@
+# Core data & ML stack
+numpy>=1.23
+pandas>=2.0
+scikit-learn>=1.4
+joblib>=1.4
+
+# Deep-learning & influence analysis
+
+influenciae>=0.3
+tensorflow-cpu~=2.15
+# Plotting & analysis
+matplotlib>=3.8
+seaborn>=0.13
+scipy>=1.11
+
+# Interactive / notebooks (optional but recommended)
+jupyterlab>=4.1
+notebook>=7.0
+ipywidgets>=8.0
+
+tqdm>=4.66
