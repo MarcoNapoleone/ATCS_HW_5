@@ -1,0 +1,6 @@
+Metadata-Version: 2.4
+Name: titanic_influence
+Version: 0.1.0
+Summary: Package for the Titanic Influence-Analysis assignment
+Author: Your Name
+Requires-Python: >=3.9
