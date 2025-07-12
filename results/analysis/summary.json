@@ -1,0 +1,20 @@
+[
+  {
+    "test_index": 0,
+    "kendall_tau": 0.4945054945054945,
+    "spearman_rho": 0.7054945054945055,
+    "jaccard_topk": 0.7
+  },
+  {
+    "test_index": 1,
+    "kendall_tau": 0.7142857142857144,
+    "spearman_rho": 0.8681318681318682,
+    "jaccard_topk": 0.7
+  },
+  {
+    "test_index": 2,
+    "kendall_tau": 0.41666666666666663,
+    "spearman_rho": 0.5852941176470587,
+    "jaccard_topk": 0.8
+  }
+]

@@ -18,7 +18,7 @@ def parse():
     p.add_argument("--k", type=int, default=20)
     return p.parse_args()
 
-def load(method, idx):
+def load(method, idx, k):
     return pd.read_csv(
         RESULT_D / f"influence_{method}" / f"test_{idx}.csv"
     ).head(k)
@@ -29,8 +29,9 @@ def main():
     summary = []
 
     for idx in args.test_indices:
-        fo = load("first_order", idx)
-        tr = load("tracin", idx)
+        fo = load("first_order", idx, args.k)
+        tr = load("tracin", idx, args.k)
+
 
         # Align by train_index for correlation
         merged = fo.merge(tr, on="train_index", suffixes=("_fo", "_tr"))
